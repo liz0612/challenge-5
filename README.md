@@ -24,4 +24,7 @@ A **Kanban-style Task Board** that allows users to **manage project tasks** with
 
 
 
-![image](Screen)
+![image](Screenshot%202025-02-08%20at%204.30.13 PM.png)
+![image](Screenshot%202025-02-08%20at%204.30.17 PM.png)
+![image](Screenshot%202025-02-08%20at%204.30.43 PM.png)
+![image](Screenshot%202025-02-08%20at%204.30.49 PM.png)
