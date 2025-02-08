@@ -25,7 +25,4 @@ A **Kanban-style Task Board** that allows users to **manage project tasks** with
 ---
 
 ## 📥 Installation & Setup
-### 1️⃣ **Clone the Repository**
-```sh
-git clone https://github.com/your-username/task-board.git
-cd task-board
+
