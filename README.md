@@ -22,7 +22,5 @@ A **Kanban-style Task Board** that allows users to **manage project tasks** with
 - **Day.js** (for date formatting & calculations)
 - **localStorage** (to store tasks)
 
----
 
-## 📥 Installation & Setup
 
