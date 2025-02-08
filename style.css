@@ -1,16 +1,81 @@
+/* General Styling */
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
 }
 
+/* Task Board Layout */
 .swim-lanes {
   min-height: 60vh;
 }
 
+/* Task Card Styling */
 .task-card {
-  margin: 0 auto;
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  cursor: grab;
+  position: relative;
 }
 
-.task-card:hover {
-  cursor: grab;
+/* Dragging Effect */
+.task-card:active {
+  cursor: grabbing;
+}
+
+/* Drop Zone Styling */
+.task-container {
+  min-height: 200px;
+  padding: 10px;
+  border: 2px dashed transparent;
+}
+
+/* Highlight Drop Target */
+.task-container:hover {
+  border: 2px dashed #aaa;
+}
+
+/* Placeholder for Dragging */
+.ui-state-highlight {
+  background: rgba(200, 200, 200, 0.3);
+  height: 50px;
+  border: 2px dashed #888;
+  margin-bottom: 10px;
+}
+
+/* Column Styling */
+.lane {
+  min-height: 400px;
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* Different Background Colors for Task Status */
+#to-do .card-body {
+  background: #f8d7da;
+}
+
+#in-progress .card-body {
+  background: #fff3cd;
+}
+
+#done .card-body {
+  background: #d4edda;
+}
+
+/* Save Button Full Width */
+#saveTaskBtn {
+  width: 100%;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .swim-lanes {
+      flex-direction: column;
+  }
+  .lane {
+      margin-bottom: 20px;
+  }
 }
